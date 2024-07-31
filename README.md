@@ -18,7 +18,7 @@ Policy obtained from both algorithms
 
 # Stochastic-gradient and Semi-gradient Methods
 
-In this section we try to evaluate value function of each state by random walk in the 7x7 grid world as in below figure. The characteristics of the grid world can be summarized as below. Each time agent stat the episode in the center of the grid world which is highlighted in blue color. Agent is equally likely to move up, down, left, or right at any state. Transition between two states doesn’t incur any reward and trying to step out of grid world leads agent to stay in the same state without any reward as well. Episodes terminate when agent reach any of black highlighted states. However, reaching to top right (0,6) terminal state incur +1 reward and reaching to bottom left corner (6,0) will lead to -1 reward.
+In this section we try to evaluate value function of each state by random walk in the 7x7 grid world as in below figure. The characteristics of the grid world can be summarized as below. Each time agent start the episode in the center of the grid world which is highlighted in blue color. Agent is equally likely to move up, down, left, or right at any state. Transition between two states doesn’t incur any reward and trying to step out of grid world leads agent to stay in the same state without any reward as well. Episodes terminate when agent reach any of black highlighted states. However, reaching to top right (0,6) terminal state incur +1 reward and reaching to bottom left corner (6,0) will lead to -1 reward.
 
 ![image](https://github.com/user-attachments/assets/815dc91e-fd74-4089-9d0a-20fcca60c950)
 
