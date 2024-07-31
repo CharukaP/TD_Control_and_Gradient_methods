@@ -13,6 +13,7 @@ Here we have calculated the optimal policy from below algorithms
 Results can be recreated by running A3Q1.ipynb file
 
 Policy obtained from both algorithms
+
 ![image](https://github.com/user-attachments/assets/69de76bb-800d-48bc-8d4b-fc68a247b008)
 
 # Stochastic-gradient and Semi-gradient Methods
